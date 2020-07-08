@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import "./App.css";
-import Header from "./components/Header";
+import Header from "./components";
 
 const App = () => {
   return (
