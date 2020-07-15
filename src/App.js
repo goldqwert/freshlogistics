@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./App.module.css";
-import { Route, withRouter, Switch, Redirect } from "react-router-dom";
+import { Route, Switch, withRouter } from "react-router-dom";
 import { Home, Busses, About, Contacts } from "./pages";
 import { Header } from "./components";
 
@@ -18,4 +18,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default withRouter(App);

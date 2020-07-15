@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  display: flex;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  width: 50%;
+}
+
+.img {
+  height: 500px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
