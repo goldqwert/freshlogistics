@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import logo from "../../assets/img/fresh.svg";
+import phone from "../../assets/img/phone.svg";
 import s from "./Header.module.css";
 import { Container, Navbar, Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [links, setLink] = useState("/");
   return (
-    <Navbar fixed="top" collapseOnSelect expand="md" className={s.header}>
+    <Navbar fixed="top" expand="md" className={s.header}>
       <Container>
         <Navbar.Brand href="/">
           <img
@@ -16,28 +18,37 @@ const Header = () => {
             className="d-inline-block align-top"
             alt="logo"
           />{" "}
-          Freshlogistics
+          <span className={s.logoText}>FRESHLOGISTICS</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"></Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav
-            justify
-            variant="tabs"
-            activeKey={links}
-            onSelect={(key) => setLink(key)}
-          >
-            <Nav.Link href="/" className={s.link}>
-              Главная
-            </Nav.Link>
-            <Nav.Link href="/busses" className={s.link}>
-              Автобусы
-            </Nav.Link>
-            <Nav.Link href="/about" className={s.link}>
-              О нас
-            </Nav.Link>
-            <Nav.Link href="/contacts" className={s.link}>
-              Контакты
-            </Nav.Link>
+          <Nav onSelect={(key) => setLink(key)}>
+            <NavLink exact to="/" activeClassName={s.active} className={s.link}>
+              ГЛАВНАЯ
+            </NavLink>
+            <NavLink to="/about" activeClassName={s.active} className={s.link}>
+              О НАС
+            </NavLink>
+            <NavLink
+              to="/service"
+              activeClassName={s.active}
+              className={s.link}
+            >
+              УСЛУГИ
+            </NavLink>
+            <NavLink to="/busses" activeClassName={s.active} className={s.link}>
+              АВТОТРАНСПОРТ
+            </NavLink>
+            <NavLink
+              to="/contacts"
+              activeClassName={s.active}
+              className={s.link}
+            >
+              КОНТАКТЫ
+            </NavLink>
+            <a href="tel:+375990000000" className={s.link} alt="phone">
+              📱 +375990000000 MTS A1 LIFE
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Container>

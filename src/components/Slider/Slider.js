@@ -1,44 +1,34 @@
 import React from "react";
 import s from "./Slider.module.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
-import bus from "../../assets/img/bus1.jpg";
+import bus from "../../assets/img/bus.jpg";
 import bus2 from "../../assets/img/bus2.jpg";
 import bus3 from "../../assets/img/bus3.jpg";
+import { Carousel } from "react-bootstrap";
 
 const Slider = () => {
   return (
     <div className={s.container}>
       <Carousel
-        showThumbs={false}
-        showStatus={false}
-        showIndicators={false}
-        showArrows={false}
-        swipeable={false}
-        autoPlay={true}
-        dynamicHeight={true}
-        transitionTime={400}
-        infiniteLoop={true}
+        controls={false}
+        indicators={false}
+        keyboard={false}
+        touch={false}
+        interval={3000}
+        slide={true}
         className={s.carousel}
       >
-        <div>
-          <img src={bus} alt="bus" className={s.img} />
-          <p className="legend">
-            TextTextTextTextTextTextTextTextTextTextTextTextTextTextText
-          </p>
-        </div>
-        <div>
-          <img src={bus2} alt="bus" className={s.img} />
-          <p className="legend">
-            TextTextTextTextTextTextTextTextTextTextTextTextTextTextText
-          </p>
-        </div>
-        <div>
-          <img src={bus3} alt="bus" className={s.img} />
-          <p className="legend">
-            TextTextTextTextTextTextTextTextTextTextTextTextTextTextText
-          </p>
-        </div>
+        <Carousel.Item className={s.img}>
+          <img className="d-block w-100" src={bus} alt="First slide" />
+          <Carousel.Caption>
+            <p className={s.text}>Текст</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={bus2} alt="Third slide" />
+          <Carousel.Caption>
+            <p className={s.text}>Текст</p>
+          </Carousel.Caption>
+        </Carousel.Item>
       </Carousel>
     </div>
   );
