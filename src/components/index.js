@@ -1,5 +1,6 @@
 import Header from "./Header/Header.js";
 import Slider from "./Slider/Slider.js";
-import Block from "./Block/Block.js";
+import ModalImg from "./ModalImg/ModalImg.js";
+import Footer from "./Footer/Footer.js";
 
-export { Header, Slider, Block };
+export { Header, Slider, ModalImg, Footer };

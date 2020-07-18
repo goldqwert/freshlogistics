@@ -1,0 +1,59 @@
+.header {
+  width: 100%;
+  background-color: #ffa755;
+  position: absolute;
+  bottom: 0;
+}
+
+.link,
+.nick {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.link:hover,
+.active {
+  color: #fffbfb;
+  text-decoration: none;
+  border-bottom: 3px solid #fffbfb;
+}
+
+.item {
+  margin-left: 40px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logoText {
+  font-weight: bold;
+  /* font-style: sans-serif; */
+}
+
+.phone {
+  margin-right: 5px;
+}
+
+.phoneText {
+  color: #000000;
+  text-decoration: none;
+}
+
+.title {
+  color: #080707;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: #fffbfb;
+}
+
+.phone {
+  margin-left: 40px;
+}

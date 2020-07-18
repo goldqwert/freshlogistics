@@ -1,5 +1,5 @@
 .block {
-  margin-top: 45px;
+  margin-top: 55px;
 }
 
 .title {
@@ -9,3 +9,9 @@
 .text {
   text-align: center;
 }
+
+.img {
+  height: 100px;
+  width: 50px;
+}
+

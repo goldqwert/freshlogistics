@@ -1,11 +1,13 @@
-import React from "react";
-import { Slider, Block } from "../../components";
+import React, { useState } from "react";
+import { Slider, Footer } from "../../components";
 import s from "./Home.module.css";
 import { NavLink } from "react-router-dom";
-import { Tab, Card, Row, CardGroup, Col } from "react-bootstrap";
-import testbus from "../../assets/img/test-bus.jpg";
+import { Card, Button, CardDeck } from "react-bootstrap";
+import testbus from "../../assets/img/test-bus.png";
+import { ModalImg } from "../../components";
 
 const Home = () => {
+  const [modalShow, setModalShow] = useState(false);
   return (
     <div className={s.container}>
       <Slider />
@@ -26,7 +28,7 @@ const Home = () => {
           <Card.Title className={s.title}>Наши автобусы</Card.Title>
         </Card.Body>
       </Card>
-      <CardGroup>
+      <CardDeck>
         <Card>
           <Card.Img variant="top" src={testbus} />
           <Card.Body>
@@ -38,7 +40,9 @@ const Home = () => {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <NavLink to="/busses">Подробнее...</NavLink>
+            <button className={s.btn} onClick={() => setModalShow(true)}>
+              Просмотреть
+            </button>
           </Card.Footer>
         </Card>
         <Card>
@@ -51,7 +55,9 @@ const Home = () => {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <NavLink to="/busses">Подробнее...</NavLink>
+            <button className={s.btn} onClick={() => setModalShow(true)}>
+              Просмотреть
+            </button>
           </Card.Footer>
         </Card>
         <Card>
@@ -65,35 +71,24 @@ const Home = () => {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <NavLink to="/busses">Подробнее...</NavLink>
+            <button className={s.btn} onClick={() => setModalShow(true)}>
+              Просмотреть
+            </button>
           </Card.Footer>
         </Card>
-        <Card>
-          <Card.Img variant="top" src={testbus} />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <NavLink to="/busses">Подробнее...</NavLink>
-          </Card.Footer>
-        </Card>
-      </CardGroup>
+      </CardDeck>
+      <NavLink to="/busses" activeClassName={s.active} className={s.link}>
+        Просмотреть весь автотранспорт
+      </NavLink>
       <Card style={{ width: "100%", alignItems: "center" }}>
         <Card.Body>
-          {/* <h1 className={s.title}>Заголовок</h1> */}
           <Card.Text className={s.text}>
-            Тут можно добавить любую инфу еще
-          </Card.Text>
-          <Card.Text className={s.text}>
-            Тут можно добавить любую инфу еще
+            Можно добавить еще информацию на главную страницу - которую нужно
           </Card.Text>
         </Card.Body>
       </Card>
+      <ModalImg showModal={modalShow} onHide={() => setModalShow(false)} />
+      <Footer />
     </div>
   );
 };

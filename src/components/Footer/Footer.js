@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import logo from "../../assets/img/fresh.svg";
-import s from "./Header.module.css";
+import s from "./Footer.module.css";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
-const Header = () => {
+const Footer = () => {
   const [links, setLink] = useState("/");
   return (
-    <Navbar fixed="top" expand="md" className={s.header}>
+    <Navbar expand="md" className={s.header}>
       <Container>
         <Navbar.Brand href="/">
           <img
@@ -55,4 +55,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Footer;
