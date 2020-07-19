@@ -47,3 +47,12 @@
   text-decoration: none;
   text-align: center;
 }
+
+.card {
+  width: "100%";
+  align-items: "center";
+}
+
+.cardImg {
+  margin-top: 20px;
+}

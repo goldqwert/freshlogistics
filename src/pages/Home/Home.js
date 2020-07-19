@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className={s.container}>
       <Slider />
-      <Card style={{ width: "100%", alignItems: "center" }}>
+      <Card className={s.card}>
         <Card.Body>
           <h1 className={s.title}>Заголовок</h1>
           <Card.Text className={s.text}>
@@ -29,7 +29,7 @@ const Home = () => {
         </Card.Body>
       </Card>
       <CardDeck>
-        <Card>
+        <Card className={s.cardImg}>
           <Card.Img variant="top" src={testbus} />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
@@ -45,7 +45,7 @@ const Home = () => {
             </button>
           </Card.Footer>
         </Card>
-        <Card>
+        <Card className={s.cardImg}>
           <Card.Img variant="top" src={testbus} />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
@@ -60,7 +60,7 @@ const Home = () => {
             </button>
           </Card.Footer>
         </Card>
-        <Card>
+        <Card className={s.cardImg}>
           <Card.Img variant="top" src={testbus} />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
@@ -88,7 +88,6 @@ const Home = () => {
         </Card.Body>
       </Card>
       <ModalImg showModal={modalShow} onHide={() => setModalShow(false)} />
-      <Footer />
     </div>
   );
 };

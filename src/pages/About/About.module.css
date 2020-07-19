@@ -1,5 +1,6 @@
 .block {
   margin-top: 55px;
+  height: 800px;
 }
 
 .title {
@@ -14,4 +15,3 @@
   height: 100px;
   width: 50px;
 }
-

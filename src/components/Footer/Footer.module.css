@@ -1,4 +1,4 @@
-.header {
+.footer {
   width: 100%;
   background-color: #ffa755;
   position: absolute;
@@ -31,7 +31,6 @@
 
 .logoText {
   font-weight: bold;
-  /* font-style: sans-serif; */
 }
 
 .phone {

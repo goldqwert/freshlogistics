@@ -63,7 +63,7 @@ const Busses = () => {
           </Card.Footer>
         </Card>
       </CardDeck>
-      <CardDeck>
+      <CardDeck className={s.imgBlock}>
         <Card>
           <Card.Img variant="top" src={testbus} />
           <Card.Body>
