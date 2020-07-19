@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Freshlogistics/static/css/main.782a5d50.chunk.css",
-    "main.js": "/Freshlogistics/static/js/main.7d667813.chunk.js",
-    "main.js.map": "/Freshlogistics/static/js/main.7d667813.chunk.js.map",
+    "main.js": "/Freshlogistics/static/js/main.460b7b89.chunk.js",
+    "main.js.map": "/Freshlogistics/static/js/main.460b7b89.chunk.js.map",
     "runtime-main.js": "/Freshlogistics/static/js/runtime-main.87354acf.js",
     "runtime-main.js.map": "/Freshlogistics/static/js/runtime-main.87354acf.js.map",
     "static/css/2.af3c1da9.chunk.css": "/Freshlogistics/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.6b1b8095.chunk.js": "/Freshlogistics/static/js/2.6b1b8095.chunk.js",
-    "static/js/2.6b1b8095.chunk.js.map": "/Freshlogistics/static/js/2.6b1b8095.chunk.js.map",
+    "static/js/2.7e0e8570.chunk.js": "/Freshlogistics/static/js/2.7e0e8570.chunk.js",
+    "static/js/2.7e0e8570.chunk.js.map": "/Freshlogistics/static/js/2.7e0e8570.chunk.js.map",
     "index.html": "/Freshlogistics/index.html",
-    "precache-manifest.f78c5c9c8b5bfac2a80a4d26c0527fc5.js": "/Freshlogistics/precache-manifest.f78c5c9c8b5bfac2a80a4d26c0527fc5.js",
+    "precache-manifest.ac035cc97c2f864ee3bfcff5da6c3674.js": "/Freshlogistics/precache-manifest.ac035cc97c2f864ee3bfcff5da6c3674.js",
     "service-worker.js": "/Freshlogistics/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/Freshlogistics/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.782a5d50.chunk.css.map": "/Freshlogistics/static/css/main.782a5d50.chunk.css.map",
-    "static/js/2.6b1b8095.chunk.js.LICENSE.txt": "/Freshlogistics/static/js/2.6b1b8095.chunk.js.LICENSE.txt",
+    "static/js/2.7e0e8570.chunk.js.LICENSE.txt": "/Freshlogistics/static/js/2.7e0e8570.chunk.js.LICENSE.txt",
     "static/media/bus.jpg": "/Freshlogistics/static/media/bus.296b6cd1.jpg",
     "static/media/bus2.jpg": "/Freshlogistics/static/media/bus2.ef738591.jpg",
     "static/media/bus3.jpg": "/Freshlogistics/static/media/bus3.65ce6df8.jpg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.87354acf.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.6b1b8095.chunk.js",
+    "static/js/2.7e0e8570.chunk.js",
     "static/css/main.782a5d50.chunk.css",
-    "static/js/main.7d667813.chunk.js"
+    "static/js/main.460b7b89.chunk.js"
   ]
 }
