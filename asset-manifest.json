@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Freshlogistics/static/css/main.7dcde225.chunk.css",
+    "main.js": "/Freshlogistics/static/js/main.717fabc5.chunk.js",
+    "main.js.map": "/Freshlogistics/static/js/main.717fabc5.chunk.js.map",
+    "runtime-main.js": "/Freshlogistics/static/js/runtime-main.87354acf.js",
+    "runtime-main.js.map": "/Freshlogistics/static/js/runtime-main.87354acf.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/Freshlogistics/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.435e548f.chunk.js": "/Freshlogistics/static/js/2.435e548f.chunk.js",
+    "static/js/2.435e548f.chunk.js.map": "/Freshlogistics/static/js/2.435e548f.chunk.js.map",
+    "index.html": "/Freshlogistics/index.html",
+    "precache-manifest.dbec2c2fc1819cfd5e3316d448bfde49.js": "/Freshlogistics/precache-manifest.dbec2c2fc1819cfd5e3316d448bfde49.js",
+    "service-worker.js": "/Freshlogistics/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/Freshlogistics/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.7dcde225.chunk.css.map": "/Freshlogistics/static/css/main.7dcde225.chunk.css.map",
+    "static/js/2.435e548f.chunk.js.LICENSE.txt": "/Freshlogistics/static/js/2.435e548f.chunk.js.LICENSE.txt",
+    "static/media/bus.jpg": "/Freshlogistics/static/media/bus.296b6cd1.jpg",
+    "static/media/bus2.jpg": "/Freshlogistics/static/media/bus2.ef738591.jpg",
+    "static/media/bus3.jpg": "/Freshlogistics/static/media/bus3.65ce6df8.jpg",
+    "static/media/fresh.svg": "/Freshlogistics/static/media/fresh.f372e3fb.svg",
+    "static/media/logo.png": "/Freshlogistics/static/media/logo.85dd12a2.png",
+    "static/media/test-bus.png": "/Freshlogistics/static/media/test-bus.1af8f0f6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87354acf.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.435e548f.chunk.js",
+    "static/css/main.7dcde225.chunk.css",
+    "static/js/main.717fabc5.chunk.js"
+  ]
+}
