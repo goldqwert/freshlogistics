@@ -9,7 +9,7 @@ const About = () => {
       <div className={s.block}>
         <Card style={{ width: "100%", alignItems: "center" }}>
           <Card style={{ marginTop: "20px" }}>
-            <Card.Img variant="top" src={logo} className={s.img} />
+            <Card.Img variant="top" src={logo} />
           </Card>
           <Card.Body>
             <Card.Title className={s.title}>О нас</Card.Title>
