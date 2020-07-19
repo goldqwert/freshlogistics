@@ -22,7 +22,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav"></Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav onSelect={(key) => setLink(key)}>
-            <NavLink exact to="/" activeClassName={s.active} className={s.link}>
+            <NavLink to="/main" activeClassName={s.active} className={s.link}>
               ГЛАВНАЯ
             </NavLink>
             <NavLink to="/about" activeClassName={s.active} className={s.link}>
