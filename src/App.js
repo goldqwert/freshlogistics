@@ -10,11 +10,11 @@ const App = () => {
       <div className={s.wrapper}>
         <Header />
         <Redirect from="/" to="/main" />
-        <Route exact path="/main" component={Home} />
-        <Route exact path="/busses" component={Busses} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/service" component={Service} />
-        <Route exact path="/contacts" component={Contacts} />
+        <Route path="/main" component={Home} />
+        <Route path="/busses" component={Busses} />
+        <Route path="/about" component={About} />
+        <Route path="/service" component={Service} />
+        <Route path="/contacts" component={Contacts} />
         <Footer />
       </div>
     </Switch>

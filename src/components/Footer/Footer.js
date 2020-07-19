@@ -19,7 +19,12 @@ const Footer = () => {
           <span className={s.logoText}>FRESHLOGISTICS</span>
         </Navbar.Brand>
         <Nav>
-          <NavLink exact to="/" activeClassName={s.active} className={s.link}>
+          <NavLink
+            exact
+            to="/main"
+            activeClassName={s.active}
+            className={s.link}
+          >
             ГЛАВНАЯ
           </NavLink>
           <NavLink to="/about" activeClassName={s.active} className={s.link}>
