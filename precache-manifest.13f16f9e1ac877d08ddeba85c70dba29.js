@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ef8c66260829398ea261d79bbf661e24",
+    "revision": "ea24fdc5f20043b9fcbc15228a45a515",
     "url": "/Freshlogistics/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Freshlogistics/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "c89c01b17e5c44643003",
+    "revision": "eec264622c3e64cea9e6",
     "url": "/Freshlogistics/static/css/main.782a5d50.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Freshlogistics/static/js/2.0dab7276.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c89c01b17e5c44643003",
-    "url": "/Freshlogistics/static/js/main.3b21bdfd.chunk.js"
+    "revision": "eec264622c3e64cea9e6",
+    "url": "/Freshlogistics/static/js/main.d030672f.chunk.js"
   },
   {
     "revision": "9f88973a802ad2f1f4f8",

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Freshlogistics/static/css/main.782a5d50.chunk.css",
-    "main.js": "/Freshlogistics/static/js/main.3b21bdfd.chunk.js",
-    "main.js.map": "/Freshlogistics/static/js/main.3b21bdfd.chunk.js.map",
+    "main.js": "/Freshlogistics/static/js/main.d030672f.chunk.js",
+    "main.js.map": "/Freshlogistics/static/js/main.d030672f.chunk.js.map",
     "runtime-main.js": "/Freshlogistics/static/js/runtime-main.87354acf.js",
     "runtime-main.js.map": "/Freshlogistics/static/js/runtime-main.87354acf.js.map",
     "static/css/2.af3c1da9.chunk.css": "/Freshlogistics/static/css/2.af3c1da9.chunk.css",
     "static/js/2.0dab7276.chunk.js": "/Freshlogistics/static/js/2.0dab7276.chunk.js",
     "static/js/2.0dab7276.chunk.js.map": "/Freshlogistics/static/js/2.0dab7276.chunk.js.map",
     "index.html": "/Freshlogistics/index.html",
-    "precache-manifest.9b87063949def8076a529f75af30e095.js": "/Freshlogistics/precache-manifest.9b87063949def8076a529f75af30e095.js",
+    "precache-manifest.13f16f9e1ac877d08ddeba85c70dba29.js": "/Freshlogistics/precache-manifest.13f16f9e1ac877d08ddeba85c70dba29.js",
     "service-worker.js": "/Freshlogistics/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/Freshlogistics/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.782a5d50.chunk.css.map": "/Freshlogistics/static/css/main.782a5d50.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.0dab7276.chunk.js",
     "static/css/main.782a5d50.chunk.css",
-    "static/js/main.3b21bdfd.chunk.js"
+    "static/js/main.d030672f.chunk.js"
   ]
 }
