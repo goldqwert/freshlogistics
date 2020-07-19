@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Freshlogistics/precache-manifest.dbec2c2fc1819cfd5e3316d448bfde49.js"
+  "/Freshlogistics/precache-manifest.f78c5c9c8b5bfac2a80a4d26c0527fc5.js"
 );
 
 self.addEventListener('message', (event) => {
