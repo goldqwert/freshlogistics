@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <Navbar expand="md" className={s.footer}>
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand>
           <img
             src={logo}
             height="30"
